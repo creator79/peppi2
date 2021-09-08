@@ -1,0 +1,21 @@
+{ 
+	"open instagram": "openWeb('https://instagram.com'); Speak('Opening Enstagram...')",
+	"open udemy": "openWeb('https://www.udemy.com'); Speak('Opening udemy...')",
+	"open coding": "openWeb('https://www.pepcoding.com'); Speak('Opening pepcoding...')",
+	"open twitter": "openWeb('https://twitter.com/?lang=en'); Speak('Open Twittter...')",
+	"open linkdein": "openWeb('https://www.linedin.com/feed/'); Speak('Opening Linkdein...')",
+	"open facebook": "openWeb('https://www.facebook.com/'); Speak('Opening Facebook...')",
+	"open whatsapp": "openWeb('https://web.whatsapp.com'); Speak('Opening Whatsapp...')",
+	"open gmail": "openWeb('https://mail.google.com'); Speak('Opening Gmail')",
+	"open youtube": "openWeb('https://youtube.com'); Speak('Opening YouTube')",
+	"open mail": "openWeb('https://mail.google.com'); Speak('Opening Gmail')",
+	"open google": "openWeb('https://www.google.com'); Speak('Opening Google')",
+	"open song": "openWeb('https://www.youtube.com/watch?v=wVSarBM8TIE'); Speak('Opening Music Prefreable in Youutube')",
+	
+	"info":" Speak('HEY eveyone I am A pepii , My Master made me during Hackaaaaaaaathon although Iam made with diffrent Apis to execute me plzzz give me some commands')",
+
+	"timer": "setTimer(UserText);",
+	"time": "getCurrentTime();",
+	"joke": "getJokes(); " ,
+	"weather": "getWeatherDetails();"
+}

@@ -1,0 +1,94 @@
+/* Removed Unnesscery Styling */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	
+	min-height: 100vh;
+	height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: url(./robo.gif);
+    background-size:cover;
+    background-position: right center;
+    background-repeat: no-repeat ;
+}
+#microphoneButton {
+	background: #3f98b3;
+	outline: none;
+	border: none;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	size: 20%;
+	margin-left: 60vh;
+	margin-top: 10%;
+
+	
+	
+}
+#Mic {
+	height: 50%;
+
+}
+
+#microphoneButton.listen {
+	background: red;
+}
+#microphoneButton.listen #Mic {
+	fill: #ffffff;
+}
+.cd-headline.scale i {
+	display: inline-block;
+	opacity: 0;
+	transform: scale(0);
+  }
+  .is-visible .cd-headline.scale i {
+	opacity: 1;
+  }
+  .cd-headline.scale i.in {
+	animation: scale-up 0.6s forwards;
+  }
+  .cd-headline.scale i.out {
+	animation: scale-down 0.6s forwards;
+  }
+  
+  .no-csstransitions .cd-headline.scale i {
+	transform: scale(1);
+	opacity: 0;
+  }
+  
+  .no-csstransitions .cd-headline.scale .is-visible i {
+	opacity: 1;
+  }
+  
+  @keyframes scale-up {
+	0% {
+	  transform: scale(0);
+	  opacity: 0;
+	}
+	60% {
+	  transform: scale(1.2);
+	  opacity: 1;
+	}
+	100% {
+	  transform: scale(1);
+	  opacity: 1;
+	}
+  }
+  @keyframes scale-down {
+	0% {
+	  transform: scale(1);
+	  opacity: 1;
+	}
+	60% {
+	  transform: scale(0);
+	  opacity: 0;
+	}
+  }
+  
